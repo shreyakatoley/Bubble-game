@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#panel{
+  height: 85%;
+  width: 70%;
+  background-color: rgb(233, 238, 245);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#ptop{
+  height: 12%;
+  width: 100%;
+  background-color: #00d4ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 19%;
+}
+
+.elem{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
+  font-size: 19px;
+  color: aliceblue;
+}
+
+.box{
+  background-color: aliceblue;
+  height: 33px;
+  width: 33px;
+  border-radius: 5px;
+  color: #1d1d76;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pbtm{
+  height: calc(100% - 12%);
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 8px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.bubble{
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #1d5b76;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'Comic Neue', cursive;
+  cursor: pointer;
+}
